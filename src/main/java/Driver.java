@@ -24,6 +24,7 @@ public class Driver
                     getCAS(compound, compounds.get(compound));
                     done ++;
                     System.out.println(done + " Done");
+                    Time.sleep(3000);
                     break;
                 }
                 catch (Exception e)
